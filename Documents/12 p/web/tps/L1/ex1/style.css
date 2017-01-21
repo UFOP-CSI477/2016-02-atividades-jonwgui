@@ -1,0 +1,81 @@
+
+
+/* APRENDENDO COM CSS RESPONSIVO - DIVIDINDO EM 12 COLUNAS*/
+
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+}
+
+
+/*se eu quiser adicionar caracteristicas comuns à todas classes de colunas, definir como mostrado abaixo:*/
+
+[class*="col-"] {
+
+}
+
+input { text-align: center;}
+
+
+.row{
+    content: "";
+    clear: both;
+    display: block;
+    
+    
+}
+
+/* definindo porcentagens da tela para o ambiente responsivo*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.body { font-family: "Arial"; }
+
+.tituloPag {  text-align: center;  border: 5px solid white; margin-bottom: 15px; margin-top:none;  }
+
+/*  border aceita em sequencia tamanho, tipo, cor */
+.site-content {overflow: auto;padding: 3%; border: 20px solid #afdaff;}
+
+.menu{
+		
+		background-color:#afdaff ;
+		font-size: 25px;
+		height: 120px; 
+		border: none;
+		padding: 8px 20px;
+		text-align: center;
+		color: white;
+	}
+
+
+.menu ul{ margin: 0px; padding: 0px; background-color: transparent; list-style:none;}
+
+.menu ul li { display: inline; margin: border; float: left;}
+
+.menu ul li a { display: inline-block; color: white;  border: 5px solid white; padding: 5px;}
+
+.menu ul li a::hover {background-color: #7da8fd }
+
+.site-content p { font-size: 20; font: bold; text-align: center; }
+
+#password {margin-bottom: 30px;}
+
+
+input {height: 3em; margin: 10px;}
+
+footer { clear: both; padding: 10px; text-align: center; }
+

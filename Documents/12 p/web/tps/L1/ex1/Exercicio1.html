@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+<body>
+
+<header>
+	
+	
+<!-- menus navegaveis -->
+	<nav class="menu">
+	<div class="tituloPag"> Formulario responsivo - exercicio de Web </div>
+	<ul>
+		<li class="col-6"> <a href="#"> Cadastrar</a></li>
+		<li class="col-6"> <a href="#"> Exibir lista</a></li>
+	</ul>
+	</nav>
+
+</header>
+
+<!--Menu : 1-cadastrar e 2-exibir lista  -->
+
+<div class="site-content col-12">
+
+
+<p>CADASTRO</p>
+
+
+<form name="formulario1">
+
+<label class="col-1">Nome:</label>
+<input type="text" class="col-5" autocomplete="name" name="Nome" value="Nome">
+	<div class="col-6 genero row"
+	<label>Sexo:</label>
+	<input type="radio" name="sexo" title="masculino"> <label for="masculino">Masculino</label>
+	<input type="radio" name="sexo" title="feminino"><label for="feminino">Feminino</label>
+	</div>
+
+<p><label>Qual sua Area de interesse?</label> </p>	
+
+<div class="interesse row">
+	<!-- COLOCAR NAME DE TODOS IGUAIS E NAO ESQUECER DE COLOCAR ATRIBUTO VALUE PŔA IDENTIFICAR--> 
+	<input type="checkbox"  name="area interesse" value="Inteligencia Artificial"> Inteligencia Artificial
+	<input type="checkbox"  name="area interesse" value="Sistemas web">Sistemas web
+	<input type="checkbox"  name="area interesse" value="Mineracao de dados">Mineracao de dados
+	<input type="checkbox"  name="area interesse" value="Internet das coisas">Internet das coisas	
+	</div>
+
+<div class="endereco" >
+
+<p></p>
+<p>ENDERECO</p>
+	<input class="row col-6" type="text"   autocomplete="street-adress" name="Rua" value="Rua">
+	<input class="row col-6" name="text" value="numero"> 
+	<input class="row col-6" type="text"  name="Complemento" value= "complemento">   
+	<input class="row col-6" type="text"  name="Cidade" value= "cidade">   
+	<input class="row col-6" type="text"  name="Estado" value= "combo">
+	<input class="row col-6" type="text"  autocomplete="postal-code" name="CEP" value= "CEP"  >
+	<input class="row col-6" type="tel"  name="Telefone" value= "Telefone" >
+	<input class="row col-6" type="text"  name="Celular" value= "Celular">
+	<input class="row col-6" type="email"  autocomplete="email" name="Email" value= "Email">
+	<input class="row col-6" type="text"  name="CPF" value= "CPF">
+	<input class="row col-6" type="text"  name="Usuario" value= "Nome de usuario">   
+	<input class="row col-6" type="password" id= "password"  maxlength="20" name="Senha" value= "Senha">
+	
+<button class="confirma" onclick="Confirma Cadastro">Confirmar cadastro </button>
+<button class="cancela"> Cancelar cadastro</button>
+
+
+</form>
+
+
+<div class="lista">
+	
+
+</div>
+
+</div>
+
+<!--Opções 1 : confirmar e cancelar cadastro , volta p menu vai pra lista  -->
+
+
+<!--Opcoes 2: exibir lista e voltar pra menu -->
+
+
+
+
+</body>
+
+<footer>Jonathan Wagner Guimaraes</footer>
+
+</html>
